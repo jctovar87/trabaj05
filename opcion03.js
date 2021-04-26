@@ -36,6 +36,6 @@ if (diasTotal <= 3){
     costo = (precio1 * 3) + (precio2 * 2) + (precio3 * 3) + (precio4 * (diasTotal - 8))
 }
 
-alert(`1 El precio de la cita es: ${costoDia} \n 
+alert(`El precio de la cita es: ${costoDia} \n 
         El costo total del tratamiento es: ${costo} \n
         Los dias del tratamiento son: ${diasTotal}`)
