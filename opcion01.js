@@ -9,4 +9,4 @@ precioGalon =+prompt("Ingrese el precio por Galones")
 cantidadGalones = cantidadLitros / variable
 precioTotal= cantidadGalones * precioGalon
 
-console.log(`En total recibira S/. ${precioTotal.toFixed(2)} por ${cantidadGalones.toFixed(2)} galones de leche`)
+alert(`En total recibira S/. ${precioTotal.toFixed(2)} por ${cantidadGalones.toFixed(2)} galones de leche`)
